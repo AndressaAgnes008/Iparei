@@ -1,0 +1,55 @@
+.contentCadastro {
+    padding-top: 15px;
+    margin: 40px auto 0;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    
+  }
+
+  .contentCadastro form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+  }
+
+  .contentCadastro form label{
+    font-size: 14px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 8px;
+  
+  }
+  
+  .contentCadastro form input{
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 16px;
+    
+  }
+
+  .contentCadastro button.btn{
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    height: 42px;
+    padding: 0 20 px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #ff4d4d;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 3%;
+  }
+  
+  .contentCadastro button.btn:hover{
+    background: #ff8080;
+    
+  }

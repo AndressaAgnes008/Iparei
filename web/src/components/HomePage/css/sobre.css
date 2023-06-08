@@ -1,0 +1,63 @@
+.assinatura {
+    text-align: right;
+}
+
+body {
+    background: white !important;
+    color: black;
+}
+
+#sobre {
+    margin: 25px 0;
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+#sobre p {
+    font-size: 20px;
+    margin: 20px 0;
+    /* text-indent: 20px; */
+    text-align: justify;
+}
+
+#sobre .assinatura {
+    border-top: dashed #DD3A06 3px;
+    padding-top: 20px;
+}
+
+#sobre #cadastrar {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 15px 0;
+    border-radius: 10px;
+    box-shadow: #3A2E39 2px 3px 5px;
+    background: #DD3A06;
+    color: white;
+}
+
+#sobre #cadastrar button {
+    width: 80%;
+    margin-top: 25px;
+    font-size: 20px;
+    background: #0052cc;
+    border: 0;
+    padding: 5px 0;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+@media (max-width: 1200px) and (min-height: 800px) {
+    footer {
+        margin-top: 40px;
+        position: relative !important;
+    }
+}
+
+@media (max-width: 375px) {
+    #sobre #cadastrar {
+        width: 100%;
+    }
+}

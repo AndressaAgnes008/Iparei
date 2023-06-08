@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+
+/* font-family: 'Frijole', cursive; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h3,
+p {
+    font-weight: 200;
+}
+
+.col {
+    width: 100vw;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.font-nome {
+    font-family: 'Frijole', cursive;
+}
+
+.icon-qrcode {
+    background: url("../../../images/icons/codigo-qr.png");
+    width: 250px;
+    height: 250px;
+}
+
+body {
+    color: white;
+    background-color: #DD3A06;
+    font-weight: 200;
+}
+
+#menu {
+    background: #DD3A06;
+    height: 70px;
+    color: white;
+}
+
+#menu .col {
+    position: relative;
+    display: flex;
+}
+
+#menu .col div {
+    position: relative;
+    width: 50%;
+    padding-left: 10vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+#menu img {
+    height: 45px;
+    display: inline-block;
+}
+
+#menu ul {
+    list-style: none;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+
+#menu ul li {
+    display: inline-block;
+    font-size: 25px;
+    padding: 0 25px;
+    margin: 8px;
+    border-radius: 25px;
+}
+
+#menu ul li:last-of-type {
+    margin-right: 0;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+#menu ul li a:hover {
+    text-decoration: none;
+    color:  #c5c6c9;
+    transition: 1s;
+}
+
+footer {
+    background: #DD3A06;
+    color: white;
+    font-weight: 900;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer .col {
+    padding: 0 10vw;
+    position: relative;
+}
+
+footer h3 {
+    display: inline-block;
+    padding-top: 5px;
+}
+
+footer h3:last-of-type {
+    position: absolute;
+    right: 10vw;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    .col {
+        width: 100%;
+        display: inherit;
+    }
+    #menu .col {
+        display: inherit;
+        text-align: center;
+    }
+    #menu {
+        height: auto;
+    }
+    #menu .col div {
+        text-align: center;
+    }
+    #menu ul {
+        display: inline;
+        position: relative;
+    }
+}
+
+@media (max-width: 375px) {
+    #menu {
+        height: 200px;
+    }
+    #menu ul {
+        display: inherit;
+        margin: auto;
+        background: #DD3A06;
+        text-align: center;
+    }
+    #menu ul li {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    footer {
+        height: 90px;
+        text-align: center;
+    }
+    footer .col {
+        display: grid;
+        place-items: center;
+    }
+    footer h3 {
+        display: inherit;
+        width: 100%;
+        margin: auto;
+    }
+    footer h3:last-of-type {
+        display: none;
+    }
+}

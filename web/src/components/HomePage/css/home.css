@@ -1,0 +1,72 @@
+#sobre {
+    padding: 25px 10vw;
+}
+
+#sobre #cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#sobre #cards .card {
+    min-width: 300px;
+    width: 49%;
+    background: #DD3A06;
+    color: #FFF;
+    height: 20vw;
+    display: grid;
+    place-items: center;
+    box-shadow: #3A2E39AA 2px 2px 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 110%;
+    font-weight: 800 !important;
+}
+
+#sobre #cards .card:first-of-type {
+    margin-right: 10px;
+}
+
+#sobre #cards .card:last-of-type {
+    margin-left: 10px;
+}
+
+#sobre #cards .card button {
+    width: 80%;
+    margin-top: 25px;
+    font-size: 20px;
+     background: #0052cc; /*#00FE81; */
+    border: 0;
+    padding: 5px 0;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    #sobre #cards {
+        display: inline;
+    }
+    #sobre #cards .card {
+        width: 80%;
+        height: 100%;
+        padding: 10px 0;
+        margin: 0 0 0 0;
+        margin: 25px 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    h1 {
+        margin-top: 25px;
+    }
+    h1,
+    h2 {
+        padding: 0 10px;
+    }
+    #sobre {
+        padding: 0;
+    }
+}

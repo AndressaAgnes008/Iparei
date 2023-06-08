@@ -1,0 +1,52 @@
+aside{
+    width: 320px;
+    background: #fff;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+    padding: 30px 20px;
+} 
+
+aside strong{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color: #333;
+}
+
+aside form {
+    margin-top: 30px;
+}
+
+aside form .input-block label{
+    color: #1a1a1a;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+aside form .input-block input{
+    color: #666;
+    height: 32px;
+    width: 100%;
+    font-size: 14px;
+    border: 0;
+    border-bottom: 1px solid #eee;
+}
+
+aside form button[type=submit]{
+    width: 100%;
+    border: 0;
+    margin-top: 30px;
+    background: #b3ffe0;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1a1a1a;
+    cursor: pointer;
+    transition: background 0.4s;
+}
+
+aside form button[type=submit]:hover {
+    background: #33ffad;
+}
